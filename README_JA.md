@@ -25,7 +25,7 @@
 `sudo apt-get update`  
 `sudo apt-get install gcc-avr binutils-avr avr-libc`  
 `make`
-9. サイドのmakeを実行すると`C:\Users\<<ユーザ名>>\Downloads\m1k-firmware-master\m1k-firmware-master`にtwobtn.hexとtwobtn.eepという2つのファームウェアファイルが出力されます。
+9. 最後のコマンドのmakeを実行すると`C:\Users\<<ユーザ名>>\Downloads\m1k-firmware-master\m1k-firmware-master`にtwobtn.hexとtwobtn.eepという2つのファームウェアファイルが出力されます。
 10. マウスへファームウェアを書き込むプログラムをインストールします。Atmel USBマイクロコントローラ用のコマンドラインプログラマ[Atmel USB DFU Programmer](https://sourceforge.net/projects/dfu-programmer/)をダウンロードして解凍ください(以下の手順ではダウンロードフォルダに解凍したものとして進めます)。
 11. DFU Programmer をインストールするには、解凍したファイル内の"dfu-prog-usb-1.2.2"フォルダを開き、atmel_usb_dfu.inf を右クリックして "インストール"をクリックしてください。
 12. インストールしたい 2 つのファームウェアファイルを dfu-programmer.exeのあるフォルダにコピーします。1 つ目のファームウェアファイルは twobtn.hex で、2 つ目のファームウェアファイルは twobtn.eep です。
