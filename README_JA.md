@@ -22,7 +22,7 @@
 6. ターミナルが開き、インストールプロセスが表示されます。ユーザー名とパスワードを選択して、インストールが完了するのを待つだけです（数分で完了します）。
 7. 手順6の同じターミナルで、M1Kファームウェアがダウンロードされたフォルダを開く必要があります。開きたいフォルダが次の場所に保存されているとするとします。`C:\Users\<<ユーザ名>>\Downloads\m1k-firmware-master\m1k-firmware-master` その場合、ターミナルに次のコマンドを入力すると、フォルダが開きます。`cd /mnt/c/Users/<<ユーザ名>>/Downloads/m1k-firmware-master/m1k-firmware-master`
 8. 以下の3つのコマンドを実行します:  
-`sudo apt-get update -qq`  
+`sudo apt-get update`  
 `sudo apt-get install -qq gcc-avr binutils-avr avr-libc`  
 `make`
 9. サイドのmakeを実行すると`C:\Users\<<ユーザ名>>\Downloads\m1k-firmware-master\m1k-firmware-master`にtwobtn.hexとtwobtn.eepという2つのファームウェアファイルが出力されます。
