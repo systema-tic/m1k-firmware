@@ -1,3 +1,4 @@
+# [日本語マニュアル](https://github.com/systema-tic/m1k-firmware/blob/master/README_JA.md)
 # m1k-firmware
 
 [![Build Status](https://travis-ci.com/systema-tic/m1k-firmware.svg?branch=master)](https://travis-ci.com/github/systema-tic/m1k-firmware)
